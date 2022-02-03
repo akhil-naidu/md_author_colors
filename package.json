@@ -1,0 +1,49 @@
+{
+  "bugs": {
+    "url": "https://github.com/ether/md_author_colors/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Mudoc plugin that uses colored underlines instead of colored backgrounds to indicate authorship.",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-etherpad": "^2.0.2",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-mocha": "^9.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-you-dont-need-lodash-underscore": "^6.12.0"
+  },
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "etherpad/plugin"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://edumatica.io/"
+  },
+  "homepage": "https://github.com/akhil-naidu/md_author_colors#readme",
+  "keywords": [
+    "mudoc",
+    "plugin"
+  ],
+  "license": "MIT",
+  "name": "md_author_colors",
+  "peerDependencies": {
+    "md_mudoc-lite": ">=0.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhil-naidu/md_author_colors.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "version": "0.0.1"
+}

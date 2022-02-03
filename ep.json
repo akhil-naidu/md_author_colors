@@ -1,0 +1,13 @@
+{
+  "parts": [
+    {
+      "name": "md_author_colors",
+      "client_hooks": {
+        "postAceInit": "md_author_colors/static/js/index",
+        "aceSetAuthorStyle": "md_author_colors/static/js/index",
+        "aceEditEvent": "md_author_colors/static/js/index",
+        "acePostWriteDomLineHTML": "md_author_colors/static/js/index"
+      }
+    }
+  ]
+}
